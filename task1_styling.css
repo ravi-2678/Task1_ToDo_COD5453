@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    text-decoration: coral;
+    background-color: #e2e2ba;
+    height: 600px;
+    width: 800px;
+    border-radius: 8px;
+}
+
+input {
+    padding: 8px;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
